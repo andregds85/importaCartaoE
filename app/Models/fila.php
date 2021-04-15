@@ -1,0 +1,65 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class fila extends Model
+{
+    use HasFactory;
+    protected $fillable = [
+
+        'DATADEEXPORTACAO',
+        'CODCENTRALREGULADORA',
+        'NOMECENTRALREGULADORA',
+        'CODCNESSOLICITANTE',
+        'NOMEUNIDADESOLICITANTE',
+        'CODCENTRALREGULADORASOLICITANTE',
+        'NOMECENTRALREGULADORASOLICITANTE',
+        'CODMODALIDADEFILA',
+        'CODTIPODEFILA',
+        'DATAHORADASOLICITACAO',
+        'CODINTERNODOITEMDOGRUPODEPROCEDIMENTOS',
+        'DESCINTERNADOITEMDOGRUPODEPROCEDIMENTOS',
+        'CODINTERNODOGRUPODEPROCEDIMENTOS',
+        'DESCINTERNADOGRUPODEPROCEDIMENTOS',
+        'CODSIGTAP',
+        'DESCSIGTAP',
+        'NOMEDOUSUARIO',
+        'DATADENASCIMENTODOUSUARIO',
+        'NOMEDAMAEDOUSUARIO',
+        'CNSDOUSUARIO',
+        'CPFDOUSUARIO',
+        'SEXODOUSUARIO',
+        'CODSOLICITACAO',
+        'CODCLASSIFICACAODERISCO',
+        'POSICAONAFILA',
+        'ESTIMATIVAPARAATENDIMENTODOPROCEDIMENTO',
+        'ESTIMDEATENDIMENTODOPACIENTE',
+        'PRODUCAOMEDIAMENSALDOPROCEDIMENTO',
+        'CODCID',
+        'DESCCID'
+    
+    ];
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
